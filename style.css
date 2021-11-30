@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #E5E5E5;;
+}
+
+.container{
+    width: 80%;
+    height: 100vh;
+    margin: 0px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bar{
+    width: 295px;
+    height: 427px;
+    border: 8px;
+    background-color: #fff;
+}
+
+.image{
+    width: 262px;
+    height: 208px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin: 16px 16px;
+    position: relative;
+    transition: 1s;
+}
+
+.image > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image:hover::before{
+    content: '$384';
+    font-size: 30px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(176deg, #9c9c9c00 0%, rgb(0, 0, 0) 100%);
+    transition: 1s;
+}
+
+.btn{
+    width: 130px;
+    height: 32px;
+    background: #4586D6;
+    border-color: #4586D6;
+    border-radius: 8px;
+    font-size: 12px;
+    color: #fff;
+    position: absolute;
+    bottom: -13px;
+    left: 25%;
+
+}
+
+.description{
+    width: 295px;
+    height: 180px;
+}
+
+.description > h4{
+    width: 262px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1C3554;
+    margin: 30px 20px;
+}
+
+.description > p{
+    width: 262px;
+    height: 24px;
+    font-size: 12px;
+    color: #F72585;
+    margin: -20px 20px;
+}
+
+.star{
+    width: 110px;
+    height: 24px;
+    color: #FAA307;
+    margin: 30px 20px;
+}
+
+.star > p{
+    font-size: 14px;
+    color: #808080;
+    margin: -16px 110px;
+}
+
+.description > h3{
+    width: 41px;
+    height: 24px;
+    font-size: 16px;
+    color: #CCCCCC;
+    margin: -15px 20px;
+}
+
+.description > h2{
+    width: 62px;
+    height: 32px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #1C3554;
+    margin: -29px 70px;
+}
+
+.image{
+    width: 262px;
+    height: 208px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin: 16px 16px;
+    position: relative;
+    transition: 1s;
+}
+
+.description > h2{
+    width: 62px;
+    height: 32px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #1C3554;
+    margin: -29px 70px;
+}
